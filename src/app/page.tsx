@@ -1,5 +1,7 @@
-export default function Home() {
+import Home from "@/Home/page";
+
+export default function App() {
   return (
-    <h1>Gather</h1>
+    <Home />
   )
 }
