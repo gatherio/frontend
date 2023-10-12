@@ -16,10 +16,11 @@
     "@types/react-dom": "18.2.7",
     "eslint-config-next": "13.4.19",
     "next": "13.4.19",
+    "next-auth": "^4.23.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.11.0",
-    "sass": "^1.67.0"
+    "sass": "^1.69.3"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.4.2",

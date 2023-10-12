@@ -1,7 +1,12 @@
-const Step1 = () => {
+import Title from "../components/Atoms/Title/Title";
+import { StepProps } from "./types";
+
+const Step1 = ({ step, setStep }: StepProps) => {
   return (
     <div>
-      <h1>Step 1</h1>
+      <Title> GATHER </Title>
+      <h1>Step {step}</h1>
+      <button onClick={() => setStep(step + 1)}>Next</button>
     </div>
   );
 };

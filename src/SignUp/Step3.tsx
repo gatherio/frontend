@@ -1,7 +1,10 @@
-const Step3 = () => {
+import { StepProps } from "./types";
+
+const Step3 = ({ step, setStep }: StepProps) => {
   return (
     <div>
-      <h1>Step 3</h1>
+      <h1>Step {step}</h1>
+      <button onClick={() => setStep(step + 1)}>Next</button>
     </div>
   );
 };
