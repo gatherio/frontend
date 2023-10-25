@@ -1,10 +1,11 @@
 import { StepProps } from "./types";
+import Button from "../components/Atoms/Buttons/Button";
 
 const Step3 = ({ step, setStep }: StepProps) => {
   return (
     <div>
       <h1>Step {step}</h1>
-      <button onClick={() => setStep(step + 1)}>Next</button>
+      <Button onClick={() => setStep(step + 1)}>Allow</Button>
     </div>
   );
 };
