@@ -1,4 +1,4 @@
-import "./Button.css";
+import "./Button.scss";
 
 type ButtonProps = {
   onClick?: () => void;
@@ -9,7 +9,7 @@ type ButtonProps = {
 
 const Button: React.FC<ButtonProps> = ({ onClick, children, type }) => {
   return (
-    <button className="button" onClick={onClick} type={type}>
+    <button className="primary_button" onClick={onClick} type={type}>
       {children}
     </button>
   );
