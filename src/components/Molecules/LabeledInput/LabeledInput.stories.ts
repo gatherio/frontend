@@ -16,7 +16,7 @@ export const Primary: Story = {
     input: {
       name: "username",
       value: "",
-      id: "username",
+      // id: "username",
       placeholder: "Enter your username",
     },
     label: "Username:",
