@@ -8,7 +8,7 @@ const Step2 = ({ step, setStep }: StepProps) => {
       <h1>Hey User</h1>
       <h1>Welcome to Gather</h1>
 
-      <p>You are now logged in as email</p>
+      <p>You are now logged in as **email**</p>
       <LabeledInput 
         label="First Name * "
         input={{name: "firstName", value: "", placeholder: "User First Name"}}
