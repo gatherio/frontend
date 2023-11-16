@@ -11,7 +11,12 @@ const Step2 = ({ step, setStep }: StepProps) => {
       <p>You are now logged in as email</p>
       <LabeledInput 
         label="First Name * "
-        input={{name: "firstName", value: "", placeholder: "User"}}
+        input={{name: "firstName", value: "", placeholder: "User First Name"}}
+        />
+
+      <LabeledInput 
+        label="Last Name * "
+        input={{name: "lastName", value: "", placeholder: "User Last Name"}}
         />
       <Button onClick={() => setStep(step + 1)}> Confirm </Button>
     </div>
