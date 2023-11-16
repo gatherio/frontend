@@ -1,12 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
 body {
   background-color: #fff9ef;
   width: 100%;
   height: 100%;
+  font-family: "Rubik", sans-serif;
 }
 
 .styles_container {
   display: flex;
-  border: 1px solid blue;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -16,6 +18,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   max-width: 500px;
-  border: 1px solid red;
 }

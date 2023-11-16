@@ -5,8 +5,7 @@ import Button from "../components/Atoms/Buttons/Button";
 const Step1 = ({ step, setStep }: StepProps) => {
   return (
     <div className="step_container">
-      <Title> GATHER </Title>
-      <h1>Step {step}</h1>
+      <Title> Gather </Title>
       <Button onClick={() => setStep(step + 1)}>Next</Button>
     </div>
   );
